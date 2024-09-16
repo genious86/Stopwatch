@@ -1,0 +1,74 @@
+body{
+    background-image: url(sabri-tuzcu-r1EwRkllP1I-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+    align-items: center;
+}
+
+#heading{
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: hsl(0, 100%, 51%);
+   font-weight: bolder;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    padding: 30px;
+    background-color: hsl(0, 0%, 96%, 0.6);
+    border-radius: 50px;
+}
+
+#display{
+
+    font-size: 6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.807);
+    text-shadow: 2px 2px 2px;
+    margin-bottom: 25px;
+
+}
+
+#controls button{
+
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    transition: background-color 0.7s ease;
+
+}
+
+#start_btn{
+    background-color: chartreuse;
+    
+}
+#start_btn:hover{
+    background-color: hsl(90, 100%, 30%);
+    
+}
+#stop_btn{
+    background-color: rgb(255, 0, 0);
+}
+#stop_btn:hover{
+    background-color: hsl(0, 100%, 30%);
+}
+#reset_btn{
+    background-color: rgb(37, 2, 235);
+}
+#reset_btn:hover{
+    background-color: hsl(249, 98%, 26%);
+}
